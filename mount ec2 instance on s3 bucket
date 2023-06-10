@@ -1,0 +1,17 @@
+launch instance
+--all traffic
+contect to instance
+----sdo amazon-linux-extract install epel -y
+-----sudo yum install s3fs-fase-y
+-----echo (access key) (scrate key)$home/(filename)
+-----ls-ld/root/
+------chomd 600 /root/(file name)
+------mkdir/(directory name)
+------create bucket , copy bucket name 
+------s3fs bucket name /s3 -o passwd_file=${Home}/.filename
+------mount|grep(directoryname)
+------cd /(directory name)
+------ls
+-----touch file A,fileB,fileC
+-----ls 
+-----fileA,fileB,fileC [this file show in s3 bucket]
