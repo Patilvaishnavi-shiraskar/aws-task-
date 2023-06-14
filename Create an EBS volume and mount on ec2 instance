@@ -1,0 +1,29 @@
+1 create instance 
+storage 
+
+2 create volume 
+ select instance and go on connect 
+sudo su -
+df -h
+3 create volume 
+select volume type 
+20GB
+availability zone 
+create volume 
+
+==select volume 
+      Action 
+      attach volume 
+      instance name 
+      device name 
+attach volume
+df -h
+lsblk
+file -s /dev/xvdf
+mkfs -t xfs /dev/xvdf
+mkdir -p /apps/my-data /apps/volume/new-volume
+cd /apps/my-data/
+mount /dev/xvdf /apps/my-data/apps/volume/new-volume
+GO on instance 
+  storage 
+  Block devices
